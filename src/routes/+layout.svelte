@@ -1,6 +1,6 @@
 <script>
 	// @ts-ignore
-	import { currentUser, signOut } from '$lib/db/database';
+	import { currentUser, signOut } from '$lib/db/databaseAuth';
 	import { ActionIcon, Button, Flex, Grid, Group } from '@svelteuidev/core';
 	import { Exit } from 'radix-icons-svelte';
 </script>

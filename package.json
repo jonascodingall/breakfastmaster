@@ -16,6 +16,7 @@
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@types/eslint": "^8.56.7",
+		"@types/eventsource": "^1.1.15",
 		"eslint": "^9.0.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0",
@@ -29,5 +30,17 @@
 		"typescript-eslint": "^8.0.0-alpha.20",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@svelteuidev/composables": "^0.15.6",
+		"@svelteuidev/core": "^0.15.6",
+		"@svelteuidev/dates": "^0.15.6",
+		"@svelteuidev/motion": "^0.15.6",
+		"@svelteuidev/preprocessors": "^0.15.6",
+		"@svelteuidev/prism": "^0.15.6",
+		"dayjs": "^1.11.11",
+		"eventsource": "^2.0.2",
+		"pocketbase": "^0.21.3",
+		"radix-icons-svelte": "^1.2.1"
+	}
 }
